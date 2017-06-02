@@ -1,2 +1,2 @@
-# jafixbot
-JafixBot
+# JafixBot
+http://jafixbot.com

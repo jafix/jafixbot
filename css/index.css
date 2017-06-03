@@ -1,5 +1,4 @@
 h1 {
-  font-family: arial;
   font-size: 50px;
   color: #fff;
   text-align: center;
@@ -7,54 +6,21 @@ h1 {
 
 body {
   font-family: arial;
-  background-image: url("bg.png");
+  background-color: #efefef;
 }
 
-.border {
-  border-radius: 10px;
-  background-color: #253247;
+.brnd {
+  border-radius: 0px 0px 5px 5px;
+  background-color: #1e3875;
   width: 80%;
   margin: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 p {
   font-size: 25px;
   text-align: center;
   color: white;
-  font-family: monospace;
-  text-decoration: underline;
   text-transform: capitalize;
-}
-
-h2 {
-    text-align: center;
-    color: #567eb5;
-    text-decoration-style: solid;
-    text-decoration: underline overline;
-}
-
-.navbar {
-  font-family: arial;
-  color: #d6e4fc;
-  font-weight: 200;
-}
-
-.link {
-    display: inline;
-    float: center;
-    padding: 8px;
-    background-color: #black;
-    border-radius: 8px;
-    font-size: 20px;
-}
-
-.login {
-    float: right;
-    display: inline;
-    padding: 8px;
-    background-color: #black;
-    border-radius: 8px;
-    font-size: 20px;
 }

@@ -1,18 +1,18 @@
 h1 {
-  font-size: 50px;
+  font-size: 100px;
   color: #fff;
   text-align: center;
 }
 
 body {
   font-family: arial;
-  background-color: #efefef;
+  background-color: #b5c0d1;
 }
 
 .brnd {
-  border-radius: 0px 0px 5px 5px;
+  border-radius: 0px 0px 10px 10px;
   background-color: #1e3875;
-  width: 80%;
+  width: 75%;
   margin: auto;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -23,4 +23,12 @@ p {
   text-align: center;
   color: white;
   text-transform: capitalize;
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: arial;
+  color: black;
+  text-align-last: center;
+  font-size: 40px;
 }

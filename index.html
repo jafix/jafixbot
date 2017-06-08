@@ -5,9 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JafixBot - Home</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
-    <!--NAVBAR COMES LATER--><br/><br/>
+    <!--START NAVBAR-->
+    <ul>
+      <p class="brand">JafixBot.com</p>
+      <div class="navlinks">
+        <li class="left"><a href="/">Home</a></li>
+        <li class="left dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Bots</a>
+          <div class="dropdown-content">
+            <a href="/bots/jafixbot1.php">JafixBot1</a>
+            <a href="/bots/jafixbot2.php">JafixBot2</a>
+            <a href="/bots/jafixbot3.php">JafixBot3</a>
+          </div>
+        </li>
+        <li class="left"><a href="/about.php">About</a></li>
+        <li class="left dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Social</a>
+          <div class="dropdown-content">
+            <a href="http://steamcommunity.com/groups/jafixbot">Steam Group</a>
+            <a href="https://discord.gg/nRvkCGu">Discord Server</a>
+          </div>
+        </li>
+        <li class="right dropdown"><a href="javascript:void(0)" class="dropbtn">Log in</a>
+          <div class="dropdown-content">
+            <a href="#">(only</a>
+            <a href="#">shows when</a>
+            <a href="#">logged in)</a>
+          </div>
+        </li>
+      </div>
+    </ul>
+    <!--END NAVBAR-->
     <div class="brnd">
       <h1>Welcome!</h1>
       <p>Extremely Fast Trading Services</p>
@@ -33,5 +65,15 @@
         <a href="steam://friends/add/76561198373381179"><button class="botbtn">Add</button></a>
       </div>
     </div>
+    <!--START FOOTER-->
+    <footer>
+      <a href="http://steamcommunity.com/groups/jafixbot"><button>Steam Group</button></a>
+      <a href="https://discord.gg/nRvkCGu"><button>Discord Server</button></a>
+      <a href="#termsofservice"><button>Terms Of Service</button></a>
+      <a href="/about.php"><button>About Us</button></a>
+      <p>&copy; JafixBot 2017</p>
+      <p>This site is not affiliated with <a href="http://steampowered.com">Steam</a></p>
+    </footer>
+    <!--END FOOTER-->
   </body>
 </html>
